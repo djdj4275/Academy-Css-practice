@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/position.css">
+</head>
+<body>
+    <h1>디스플레이 속성</h1>
+    <p>블록속성 : P태그는 기본적으로 마진값을 가지고있다.</p>
+    <a>
+        인라인속성 : width와 height값을 가질수없다.
+    </a>
+    <div>
+        div는 기본적으로 블록속성을 가지고 있음 <br>
+        display의 inline-block을 사용하면 width와 height를 가지는 inline처럼 쓸수있다.
+    </div>
+
+    <h1>Visiblity 속성확인</h1>
+    <p>기본속성은 visible</p>
+    <p class="hidden">hidden으로 숨김</p>
+    <p class="none">none으로 없앰</p>
+
+    <h1>Opacity 속성확인</h1>
+    <p class="opacity">
+        opacity로 투명도 조절 : 0에 가까울수록 투명
+    </p>
+
+    <h1>Position의 속성확인</h1>
+    <div class="static">
+        정적위치 : position의 기본값
+    </div>
+    <div class="relative">
+        상대위치 : 원래 가진 정적위치의 값에서 이동한 위치
+    </div>
+    <div class="absolute">
+        절대위치 : 값이 고정된 top과 left에서는 위치가 고정 <br>
+        브라우저의 크기에 따라서 bottom과 right는 위치가 변형
+    </div>
+    <div class="fix">
+        고정위치 : 브라우저 화면 상에서 고정된 위치
+    </div>
+
+    <div class="clear">
+        <p class="clear"> 
+            z-indecx는 기본값으로 0을 가지고 있고 값이 크면 앞으로 작으면 뒤로 간다. <br>
+            각 요소들은 작성해준 순서대로 쌓인다. 가장 마지막에 작성해준 요소가 가장 위에 출력
+        </p>
+    </div>
+
+</body>
+</html>

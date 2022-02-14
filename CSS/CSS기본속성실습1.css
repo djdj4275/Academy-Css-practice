@@ -1,0 +1,15 @@
+h1 {font-family: fantasy;}
+div {width: 50%; border: 3px solid olive; background-color: beige;}
+ul {list-style-type: circle;}
+a:link, a:visited {color: black; font-weight: bold; text-decoration: none;}
+.link :hover {font-style: italic; text-shadow: 1px 2px gray;}
+span {font-family: '궁서'; color: green; 
+        text-decoration: underline wavy 2px red;}
+
+
+/* 
+원래는 태그 이름 그대로 사용하기보단 class를 사용하는것이 좋음
+그리고 mac에서 지원하는 폰트나 형식이 차이가 나는것이 있기에 
+실습 자료와 조금 다를수가 있음
+ */
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/colorbackground.css">
+    <link rel="stylesheet" href="../CSS/textfont.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/linklist.css">
+    <link rel="stylesheet" href="../CSS/tablesprite.css">
+</head>
+<body class="background_image">
+    <h1>CSS 기본 속성 확인</h1>
+    <h3>color를 통한 색상 넣기</h3>
+    <p class="color_name">CSS 색이름으로 색 넣기 : yellow</p>
+    <p class="color_rgb">CSS rgb()값으로 색 넣기 : rgb(255,255,0)</p>
+    <p class="color_16">CSS 16진수 값으로 색 넣기 : #FFFF00</p>
+    
+    <h3>background를 통한 이미지 넣기</h3>
+    <div>
+        <p>body의 background에 이미지 넣기</p>
+        <p>
+            이미지링크를 통해서 이미지를 넣어줄수있으며, <br>
+            기본값은 repeat 이다. : no, x, y, repeat
+        </p>
+        <p>
+            position을 통해 위치를 지정해줄 수 있다.
+            세로축 위치 : top, center, bottom <br>
+            가로축 위치 : left, center, right <br>
+        </p>
+        <p>
+            attachment를 통해 위치를 고정시켜줄수있다. <br>
+            fixed : 스크롤을 내렸을때 움직이지않음 <br>
+            scroll : 스크롤을 내렸을때 따라움직임 (기본값)  
+        </p>
+    </div>
+    
+    <h3>텍스트 속성 확인</h3>
+    <p class="text">글씨가 왼쪽에서 써집니다</p>
+    <p class="text_p">
+        대한체육회는 "8일 오전 베이징 동계올림픽 메인미디어 센터에서 윤홍근 선수단장의 긴급 기자회견을 열고 
+        CAS에 관련 사항을 제소하기로 했다"며 "이번 판정의 부당함을 공식화해 다시는 국제 빙상계와 스포츠계에서 
+        우리 선수들에게 억울한 일이 벌어지지 않도록 최선을 다하겠다"고 밝혔다. <br>
+    </p>
+
+    <h3 class="font_h3">폰트 속성확인</h3>
+    <p class="font">fantasy 글꼴 속성입니다</p>
+
+    <h3>웹폰트를 사용해서 출력하기</h3>
+    <p style="font-famlily: 'Jua';"> link를 통해 들고온 웹 폰트</p>
+    <p class="web_font">CSS를 통해 들고온 웹 폰트 html</p>
+
+    <h3>링크에 CSS효과로 꾸미기</h3>
+    <a href="http://www.naver.com">네이버</a>
+
+    <h3>리스트에 CSS효과로 꾸미기</h3>
+    <ul class="unordered_list_mark">
+        <li>순서가 없는 리스트</li>
+        <li>순서가 없는 리스트</li>
+        <li>순서가 없는 리스트</li>
+    </ul>
+    <ol class="ordered_list_mark">
+        <li>순서가 있는 리스트</li>
+        <li>순서가 있는 리스트</li>
+        <li>순서가 있는 리스트</li>
+    </ol>
+    <div>
+        <p>list-style-type을 none으로 만들면 앞의 숫자 혹은 마크가 없어진다.</p>
+    </div>
+
+    <div>
+        <h1>테이블에 CSS효과 넣기</h1>
+        <table>
+            <tr>
+                <td>동물의 종류</td>
+                <td>개월수</td>
+                <td>이름</td>
+            </tr>
+            <tr>
+                <td>강아지</td>
+                <td>6</td>
+                <td>초코</td>
+            </tr>
+            <tr>
+                <td>강아지</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <p>
+            border-collapse 속성은 collapse(합치기) separate(분리) 값이 있다. <br>
+            이때 empty-cells를 사용할 때는 separate 속성값일때 사용이 가능하다 <br>
+            border-spacing도 동일
+        </p> 
+    </div>
+
+    <div class="">
+        <h1>이미지 스프라이트 활용하기</h1>
+        <div class="up"></div>
+        <div class="down"></div>
+        <div class="right"></div>
+        <div class="left"></div>
+        <p>
+            이미지 스프라이트는 배경이미지를 통해서 그림을 잘라서 사용한다 <br>
+            이때 div의 width와 height를 사용하여 배경이미지를 사용할 공간을 지정 <br>
+            div는 안에 컨텐츠가 없으면 공간을 주지 않는다
+        </p>
+    </div>
+
+</body>
+</html>

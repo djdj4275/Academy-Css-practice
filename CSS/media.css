@@ -1,0 +1,26 @@
+body {
+    background-color: darkorange;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.item {
+    display: inline-block;
+    padding: 30px;
+    border: 2px solid yellow;
+    background-color: beige;
+}
+
+@media screen and (min-width : 480px) {
+    body {background-color: lightblue !important}
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    body {
+        background-color: coral;
+    }
+}

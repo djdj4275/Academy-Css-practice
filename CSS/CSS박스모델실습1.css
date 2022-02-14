@@ -1,0 +1,5 @@
+h1 {background-color: orange; padding: 20px; text-align: center;}
+div {padding: 10px; border: 2px dashed black; border-radius: 10px;
+    min-width: 200px}
+p {background-color: antiquewhite; padding: inherit; padding-left: 30px;
+    min-width: 100px;}

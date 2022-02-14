@@ -1,0 +1,5 @@
+.notic > p::after {content: "N"; display: inline-block; width: 20px; height: 20px;
+                    background-color: orange; text-align: center; border-radius: 50%;
+                    color: white; font-weight: bold;} 
+
+/* radius시 완전 둥글게 만드려면 width,height하고 radius사용 */

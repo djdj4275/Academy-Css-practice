@@ -1,0 +1,21 @@
+.padding {background-color: cadetblue; width: 200px;
+            padding: 20px 50px 10px 0px; border: 1px 5px solid black;}
+
+.groove_3d, .ridge_3d, .inset_3d, .outset_3d {width: 100px; height: 20px}
+
+.groove_3d {border-style: groove; border-width: 10px; border-color: coral;}
+.ridge_3d {border: 10px ridge yellowgreen;}
+.inset_3d {border: 10px inset cornflowerblue;}
+.outset_3d {border: 10px outset rosybrown;}
+
+.border_width {width: 100px; height: 30px; border-top-width: 10px;
+                border-color: black; border-top-style: solid;
+                border-right: 5px dotted ; border-bottom: 2px double;
+                border-left: 5px dashed;}
+
+.none {background-color: darkblue; border: none; width: 100px; height: 30px;}
+.hidden {background-color: darkblue; border: hidden 10px black;
+        width: 100px; height: 30px;}
+
+.margin {width: 100px; height: 80px; background-color: cadetblue;
+        margin: 20px; outline: black solid 2px;}

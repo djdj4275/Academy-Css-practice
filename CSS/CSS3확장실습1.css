@@ -1,0 +1,30 @@
+.flex_box {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.f_item {
+    display: inline-block;
+    background-color: aqua;
+    padding: 30px;
+}
+
+.grid_box {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.g_item {
+    display: inline-block;
+    background-color: brown;
+    padding: 30px 50px;
+}

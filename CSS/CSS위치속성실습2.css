@@ -1,0 +1,2 @@
+ul {overflow: auto; padding: 20px; background-color: yellow;} 
+li {list-style: none; background-color: olive; float: left; padding: 15px;}

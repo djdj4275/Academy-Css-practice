@@ -1,0 +1,21 @@
+.text {direction: rtl; letter-spacing: 10px; word-spacing: 10px; text-align: center; 
+        text-decoration: underline overline dashed; text-shadow: 2px 1px coral;}
+
+/*
+ltr : left to right : 왼쪽에서 오른쪽으로 글 작성
+rtl : right to left : 오른쪽에서 왼쪽으로 글 작성
+*/
+
+.text_p {text-indent: 10px; line-height: 40px;}
+.font_h3 {font-family: fantasy, "궁서";}
+
+.font {font-family: "돋움"; font-size: 30px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.web_font {font-family: 'Jua'; font-size: 40px; font-weight: lighter; font-variant: small-caps;
+            font-style: oblique italic;}
+
+        /*
+        oblique와 italic 둘다 기울임체
+        oblique를 제공하는 브라우저가 거의 없다. 따라서 italic을 사용
+         */

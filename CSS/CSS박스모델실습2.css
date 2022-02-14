@@ -1,0 +1,8 @@
+table {background-color: blanchedalmond;
+    border-collapse: collapse; border-radius: 20px;
+    margin: auto;}
+
+.title_name {background-color: orange; border-bottom: 2px solid brown;}
+
+td {padding: 10px 20px;}
+h1 {text-align: center;}

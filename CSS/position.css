@@ -1,0 +1,17 @@
+div {display: inline-block; background-color: burlywood;
+    padding: 20px; width: 200px;}
+
+a {width: 200px; height: 30px; background-color: cadetblue;}
+p {background-color: darkkhaki; margin: 0px;}
+
+.hidden {visibility: hidden;}
+.none {display: none;}
+.opacity {filter:opacity(50%);}
+
+.static {position: static;}
+.relative {position: relative; left: 50px;}
+.fix {position: fixed; top: 0; right: 0;}
+.absolute {position: absolute; top: 300px; right: 0;}
+
+.clear {background-color: white; width: auto;}
+

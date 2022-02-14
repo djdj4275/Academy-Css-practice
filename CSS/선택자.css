@@ -1,0 +1,43 @@
+.parents p {background-color: blue;}
+
+.parents_children > p {background-color: yellow;}
+
+.sibling ~ p {background-color: aqua;}
+
+.adjacent + p {background-color: cadetblue;}
+
+.hover:hover {background-color: blueviolet;}
+
+.focus:focus {color: crimson; font-weight: bold;}
+
+.input > input:disabled + span{color: coral; text-decoration: line-through;}
+
+
+p.first:first-child {background-color: darkorange;}
+
+p.first:last-child {background-color: aquamarine;}
+
+p.first:nth-child(2) {background-color: cornflowerblue;}
+
+p.type:last-of-type {background-color: black; color: white;}
+
+
+.pseudo > p::first-letter {font-size: 2em;}
+
+.pseudo_line > p::first-line {text-decoration: underline;}
+
+.before_after > p::before {content: "항상같은말";}
+.before_after > p::after {display:block; content: '1'; width: 20px; height: 20px; background-color: blue;}
+
+.selection > p::selection {color: cadetblue;}
+
+
+[title="div title"] {background-color: fuchsia;}
+[title |="div"] {background-color: fuchsia;}
+[title$="title"] {background-color: fuchsia;}
+[title ^="d"] {background-color: fuchsia;}
+[title *="1"] {background-color: fuchsia;}
+
+/* 위에 것중 사용 */
+
+.not > p:not([title="n"]) {color: darkorange;}

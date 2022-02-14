@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/선택자.css">
+</head>
+<body>
+    <h1>결합선택자</h1>
+    <h3>자손선택자</h3>
+    <div class="parents">
+        <p>자식요소</p>
+        <div>
+            <p>parents의 자손</p>
+        </div>
+    </div>
+    <p>부모요소가 없습니다</p>
+
+    <h3>자식선택자 '>' </h3>
+    <div class="parents_children">
+        <p>자식요소</p>
+        <p>자식요소</p>
+        <p>자식요소</p>
+        <div>
+            <p>parents의 자손</p>
+        </div>
+    </div>
+    <p>부모요소가 없습니다</p>
+
+    <h3>일반 동위 연산자 '~'</h3>
+    <p>바깥의 p태그입니다</p>
+    <div class="sibling">
+        <p>sibling 안쪽의 p태그입니다</p>
+    </div>
+    <p>sibling된 p태그입니다</p>
+    <p>같은 부모 아래 있는 태그 중 뒤에 나오는 모든 태그에 효과</p>
+    <h2>sibling 확인</h2>
+
+    <h3>인접동위선택자</h3>
+    <div class="adjacent">
+        <p>adjacent의 자식</p>
+    </div>
+    <p>인접한 p태그</p>
+    <p>인접하지 않는 p태그</p>
+    
+    <div>
+        <h1>의사클래스</h1>
+        <h3>동적의사클래스</h3>
+        <div class="hover">
+            마우스를 올리면 배경색이 나타납니다
+        </div>
+        <input type="text" class="focus" value="미리적힌값">
+
+        <h3>상태의사클래스</h3>
+        <p>input 태그와 함께사용</p>
+        <div class="input">
+            <input type="checkbox" name="num"><span>HTML</span>
+            <input type="checkbox" name="num"><span>CSS</span>
+            <input type="checkbox" name="num" disabled><span>JS</span>
+            <p>
+                상태의사클래스는 input과 함께 사용 <br>
+                input은 닫는 태그가 없기 때문에 글자가 포함되지않음 <br>
+                그래서 span태그를 이용하여 글자를 감싸서 CSS적용
+            </p>
+        </div>
+        html은 태그로 꾸며주는 문서입니다.
+
+        <h3>구조의사클래스</h3>
+        <div class="first_child">
+            <p class="first">첫번째 자식태그</p>
+            <p class="first">두번째 자식태그</p>
+            <p class="first">세번째 자식태그</p>
+        </div>
+        <p>
+            first_child는 부모태그중에 첫번째로 가지는 태그 또는 클래스가 앞의 이름일때 효과를 준다 <br>
+            <strong>p</strong>:first_child
+        </p>
+
+        <h3>first-of-type</h3>
+        <div>
+            <p class="type">
+            자식태그로 들어간 최초의 값에 효과를 준다.
+            </p>
+        </div>
+
+        <h3>의사 요소</h3>
+        <div class="pseudo">
+            <p>텍스트 첫글자를 선택합니다.</p>
+        </div>
+        <div class="pseudo_line">
+            <p>
+                텍스트 줄을 선택합니다. <br>
+                줄을 바꾸었습니다
+            </p>
+        </div>
+
+        <div class="before_after">
+            <p>첫 문단</p>
+            <p>둘째 문단</p>
+        </div>
+
+        <div class="selection">
+            <p>드래그 했을 때 값 변화</p>
+        </div>
+
+        <h3>속성선택자</h3>
+        <div class="atrribute">
+            <div title="div title">타이틀입니다</div>
+            <p title="p title">타이틀입니다</p>
+            <h1 title="h1 title">타이틀입니다</h1>
+        </div>
+
+        <h3>기타의사클래스</h3>
+        <div class="not">
+            <p title="y">p태그</p>
+            <h1>h1 태그 </h1>
+            <p title="n">title이 없는 p태그</p>
+        </div>
+
+    </div>
+</body>
+</html>
